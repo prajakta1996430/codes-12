@@ -1,0 +1,217 @@
+#variables ex
+# variable
+x = 6
+y = "prajakta"
+print(x)
+print(y)    
+x = 2
+x + 3 
+
+#list
+list =  [" blue", "red", "yellow"]
+print(list)
+
+#Access the items
+list = [" blue", "red", "yellow"]
+print(list[1])
+print(list[2])
+print(list[0])
+
+#negative indexing 
+list =  [" blue", "red", "yellow"]
+print(list[-1])
+print(list[-2])
+print(list[0])
+
+# range pf indexs
+list = ["blue", "red", "yellow", "orange","white","black", "violet"]
+print(list[2:5])
+print(list[:4])
+print(list[3:])
+
+# range of negative indexs
+list = ["blue", "red", "yellow", "orange","white","black", "violet"]
+print(list[-4:-3])
+
+list = ["blue", "red", "yellow"]
+list.append("orange")
+print(list)
+list.insert(1,"orange")
+print(list)
+list.remove("red")
+print(list)
+list.pop()
+print(list)
+
+list =  ["blue", "red", "yellow"]
+del list[0]
+print(list)
+
+list =  ["blue", "red", "yellow"]
+list.clear()
+print(list)
+
+#copy a list
+list =  ["blue", "red", "yellow"]
+list.copy()
+print(list)
+
+#join two lists
+list1 = ["a","b","c","d"]
+list2 = [1,2,3,4]
+list3 = list1 + list2
+print(list3)
+
+# append list2 into list 1
+list1 = ["a","b","c","d"]
+list2 = [1,2,3,4]
+for x in list2:
+    list1.append(x)
+print(list1)    
+
+# Extend method to add list 2 at the end of list 1
+list1 = ["a","b","c","d"]
+list2 = [1,2,3,4]
+
+list1.extend(list2)
+print(list1)
+
+# tuple
+tup = ("red", "yellow", "black")
+print(tup)
+#access the tup items
+tup = ("red", "yellow", "black")
+print(tup[1])
+print(tup[-1])
+print(tup[0:2])
+
+# loop through tuple
+tup = ("red", "yellow","black")
+for x in tup:
+    print(x)
+    
+# sets
+set = {"red", "yellow","black"}
+print(set)
+
+# aceess the items
+set = {"red", "yellow","black"}
+for x in set :
+    print(x)
+
+# add items
+set = {"red", "yellow","black"}
+set.add("orange")
+print(set)
+# update
+set.update(["green", "white", "blue"])
+print(set)
+print(len(set))
+# remove 
+set.remove("white")
+print(set)
+
+# python if statements 
+a = 4
+b = 200
+if b>a:
+    print("b is greater than a")
+
+#elif statements
+a = 30
+b = 30
+if b>a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+
+# else statement
+a = 100
+b = 20
+if b>a:
+    print("b is greater than a")
+elif a == b:
+    print("b is greater than a")
+else: 
+    print("a is greater than b")
+
+# if else 
+a = 20 
+b = 200
+if b<a:
+    print("b is less than a")
+else:
+    print("a is less than b")
+
+# while loop
+i = 1
+while i<6:
+    print(i)
+    i += 1
+
+#break 
+i = 1
+while i<6:
+    print(i)
+    if i ==3:
+      break
+    i += 1
+    
+#continue statement
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+#else statement
+i = 0
+while i < 6:
+   print(i)
+   i += 1
+else:
+    print("i no longer less than 6")
+
+# for loops
+movies = ["razi", "uri" ,"kites"]
+for x in movies:
+    print(x)
+
+# break statement
+movies = ["razi", "uri" ,"kites"]
+for x in movies:
+    print(x)
+    if x == "uri":
+       break
+
+#continue statement       
+movies = ["razi", "uri" ,"kites"]
+for x in movies:
+  if x == "uri": 
+    continue
+  print(x) 
+       
+# arrays in python
+cars = ["BMW","volvo","jaguar"]
+print(cars)
+
+# access the elements of 1 item
+cars = ["BMW", "volvo","jaguar"]
+x = cars[0]
+print(x)
+
+cars = ["BMW", "volvo","jaguar"]
+cars[0] = "audi"
+print(cars)
+
+x = len(cars)
+print(x)
+
+# loping the array
+for x in cars:
+  print(x)
+
+
+        
+
